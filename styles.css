@@ -1,12 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 .main-heading {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Mate SC, sans-serif;
     text-align: center;
     font-size: 25px;
     margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.calculator-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-inputs input[type=number] {
+    padding: 8px;
+    font-size: 20px;
+    font-family: Mate SC, sans-serif;
+}
+
+.calculator-inputs input[type=number]:read-only {
+    text-align: center;
+}
+
+.calculator-inputs p {
+    font-family: Mate SC, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.calculator-inputs button {
+    width: 11.5%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Mate SC, sans-serif;
+}
+
+
+
+.body {
+    url(https://img.freepik.com/free-photo/traditional-japanese-wave-pattern-remix-artwork-by-watanabe-seitei_53876-101340.jpg?w=1380&t=st=1682212583~exp=1682213183~hmac=20471d61a24da34b29fe5ce7e7059b208c236ae3834dda27945cfb507cdf05cc);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
 }
