@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(https://img.freepik.com/free-photo/window-room-with-surreal-mystical-view_23-2150309321.jpg?w=1380&t=st=1682371399~exp=1682371999~hmac=50bd704be44466e5301873d494b368a9c439f1ad6a443faf7c1f082eefc03986);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 .main-heading {
     font-family: Mate SC, sans-serif;
@@ -12,6 +20,7 @@
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 35px;
+    color: white;
 }
 
 .calculator-inputs {
@@ -35,23 +44,39 @@
     font-family: Mate SC, sans-serif;
     font-size: 25px;
     font-weight: bold;
-    padding: 5px;
+    padding: 8px;
 }
 
 .calculator-inputs button {
-    width: 11.5%;
-    height: 30px;
-    font-size: 25px;
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
     font-weight: bold;
     font-family: Mate SC, sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    border-style:none;
+    border-radius: 10px;
+    background-color: pink;
 }
 
 
+.calculator-inputs button:hover {
+    background-color: palevioletred;
+}
 
-.body {
-    url(https://img.freepik.com/free-photo/traditional-japanese-wave-pattern-remix-artwork-by-watanabe-seitei_53876-101340.jpg?w=1380&t=st=1682212583~exp=1682213183~hmac=20471d61a24da34b29fe5ce7e7059b208c236ae3834dda27945cfb507cdf05cc);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vh;
+
+.sgg {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+
+.sdd {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 15px;
 }
