@@ -17,10 +17,10 @@
         <div class="inputContainer">
             <section class="calculatorInputs">
                 <p>Art</p>
-                <input type="number" placeholder="1-10"/>
+                <input id="artInput" type="text" placeholder="1-10" max="10">
                 <br/>
                 <p>Music</p>
-                <input type="number" placeholder="1-10"/>
+                <input id = "musicInput" type="text" placeholder="1-10"/>
                 <br/>
                 <p>Story</p>
                 <input type="number" placeholder="1-10"/>
@@ -31,16 +31,17 @@
                 <p>Battle scenes</p>
                 <input type="number" placeholder="1-10"/>
                 <br/>
-                <button>=</button>
+                <button id="submitBtn">=</button>
                 <br/>
             </section>
             <section class="outputContainer">
-                <input type="number" placeholder="Output" readonly/>
+                <p id="outputTxt">Output:</p>
+                <p id="outputNum">0</p>
             </section>
         </div>
            
     </div>  
-
+    <script src="script.js"></script>
 </body>
 </html>
 

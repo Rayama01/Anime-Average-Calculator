@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(https://img.freepik.com/free-photo/window-room-with-surreal-mystical-view_23-2150309321.jpg?w=1380&t=st=1682371399~exp=1682371999~hmac=50bd704be44466e5301873d494b368a9c439f1ad6a443faf7c1f082eefc03986);
+    background-image: url(https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size:contain;
     background-repeat: no-repeat;
@@ -79,4 +79,13 @@ body {
     padding: 25px;
     border-radius: 10px;
     margin-top: 15px;
+}
+
+#outputNum {
+    width: 173px;
+    text-align: center;
+}
+
+#outputTxt {
+    text-align: center;
 }
