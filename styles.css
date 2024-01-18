@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* background-image: url(https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-color: #2e51a2;
     background-repeat: no-repeat;
     background-size:contain;
     background-repeat: no-repeat;
@@ -22,7 +23,6 @@ body {
     margin-bottom: 35px;
     color: white;
 }
-
 .inputContainer {
     display: flex;
     flex-direction: column;
@@ -57,12 +57,12 @@ body {
     text-align: center;
     border-style:none;
     border-radius: 10px;
-    background-color: pink;
+    background-color: rgb(205, 205, 205);
 }
 
 
 .inputContainer button:hover {
-    background-color: palevioletred;
+    background-color: rgb(180, 180, 180);
 }
 
 
